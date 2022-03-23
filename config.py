@@ -7,6 +7,7 @@ DB_LOCAL=env.str('DB_LOCAL')
 DB_LOCAL_USER=env.str('DB_LOCAL_USER')
 DB_LOCAL_PASS=env.str('DB_LOCAL_PASS')
 DB_LOCAL_PORT=env.str('DB_LOCAL_PORT')
+table_names=['micro','mono']
 class DATABASE:
          ENGINE= DB_ENGINE
          NAME= DB_NAME
